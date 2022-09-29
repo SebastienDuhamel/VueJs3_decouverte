@@ -32,8 +32,7 @@ export default {
   },
   setup(props, {emit}){
     //si on a des variables qui doivent changés on oublie pas de mettre ref, il faut penser à l'import comme cela
-    // les variables deviendront réactives
-    // just
+    // les variables deviendront réactive
     let technoToEdit = ref(null);
     const deleteTechno = function (tech){
       emit('delete-techno', tech);
