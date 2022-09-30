@@ -5,16 +5,20 @@
   <TechnoList :technos="technos" @delete-techno="deleteTechno" @edith-techno="editTechno"/>
 
   <p>{{ technos.length }} techno{{technos.length>1? "s":""}}</p>
+
+  <ComponementA/>
 </template>
 
 <script>
 import FormVue from "@/components/FormVue";
 import TechnoList from "@/components/TechnoList";
+import ComponementA from "@/components/ComponementA";
 import {ref} from "vue";
 
 export default {
   name: 'App',
   components: {
+    ComponementA,
     FormVue,
     TechnoList
 
