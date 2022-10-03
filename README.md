@@ -1,4 +1,5 @@
 # my_todo_ist
+Projet utiliser le ref() variable réactive, l'utilisation de componement
 
 ## Project setup
 ```

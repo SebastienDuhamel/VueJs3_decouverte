@@ -3,7 +3,7 @@
   <FormVue @add="saveTechno"/>
   <br>
   <TechnoList :technos="technos" @delete-techno="deleteTechno" @edith-techno="editTechno"/>
-
+<!-- ici on test s'il y a plus d'une techno alors un s apparaitra -->
   <p>{{ technos.length }} techno{{technos.length>1? "s":""}}</p>
 
   <ComponementA/>
